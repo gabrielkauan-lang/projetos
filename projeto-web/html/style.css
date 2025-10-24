@@ -1,0 +1,55 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+  body {
+    background-image: url("/img/back-tablet.jpg");
+  }
+
+  #burguer {
+    display: none;
+  }
+
+  nav {
+    display: block;
+  }
+
+  nav > ul > li {
+    display: inline-block;
+  }
+
+  main {
+    width: 901px;
+    margin: 0 auto;  
+  }
+}
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 1.6;
+  color: #222;
+  background-color: #1c1111;
+  font-size: 16px;
+  
+}
+header{
+  text-align: left;
+}
+
+
+
+
+
+
+
+img{
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 15px 15 10px;
+    width: 50%;
+    
+}
